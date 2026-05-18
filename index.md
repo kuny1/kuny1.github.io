@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Tree of Life"
   text: "在时代洪流下给自己的精神荒漠种一棵树"
-  tagline: My great project tagline
+  tagline: AI FrontEnd Coding Life
   actions:
     - theme: brand
       text: Markdown Examples
