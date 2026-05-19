@@ -9,4 +9,4 @@ import LatestArticles from './components/latest.vue'
 
 <LatestArticles />
 
-[更多文章 → ]()
+[更多文章 → ](/)
