@@ -1,6 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+system: true
 
 # 当 layout 设置为 home 时，定义主页 hero 部分的内容。更多详细信息：默认主题：主页。
 hero:
@@ -9,7 +10,7 @@ hero:
   actions:
     - theme: alt
       text: 最新发布
-      link: /
+      link: /articles/latest
     - theme: brand
       text: 置顶推荐
       link: /

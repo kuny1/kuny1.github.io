@@ -1,13 +1,12 @@
+---
+system: true
+---
 <script setup>
-import CustomComponent from './components/latest.vue'
+import LatestArticles from './components/latest.vue'
 </script>
 
-# Docs
+# 最新文章
 
-This is a .md using a custom component
+<LatestArticles />
 
-<CustomComponent />
-
-## More docs
-
-...
+[更多文章 → ]()
