@@ -22,14 +22,7 @@
 
 **验收**：成功运行一个本地的 Agent
 
-### 3. LLM 基本原理：背后的运作原理
-- 为什么会出现？
-- 如何成为主流？
-- 如何运作？
-- 能力边界在哪里？
-**验收**：学习笔记
-
-### 4. Python 基础：Life is Short, you need python.
+### 3. Python 基础：Life is Short, you need python.
 - Python是一门语言，最基本的任务可以分为3个：
 1. 存储数据 — 在内存中记住某个值
 2. 操作数据 — 对存储的值做运算（数学、逻辑、文本处理）
@@ -46,6 +39,13 @@
    - 模块与包：基于函数及输入输出的更复合的组合
 
 **验收**：学习笔记、跟已经掌握的语言的核心差别等
+
+### 4. LLM 基本原理：背后的运作原理
+- 为什么会出现？
+- 如何成为主流？
+- 如何运作？
+- 能力边界在哪里？
+**验收**：学习笔记
 
 ### 5. 从 0 到 1 手搓一个 MVP 版本（麻雀虽小，五张俱全）
 
@@ -69,3 +69,5 @@
 - 公开资料
   - https://github.com/microsoft/ai-agents-for-beginners
   - https://github.com/datawhalechina/hello-agents
+
+下一篇：[初识 AI Agent](./ai-agent)

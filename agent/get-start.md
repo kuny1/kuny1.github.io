@@ -25,7 +25,7 @@
 
 ### When: 什么时候开始
 - 开发一个 Agent 最好是两年前，其次是现在
-### How: 如何从 0 到 1 开发一个 Agent（移步[](./first)）
+### How: 如何从 0 到 1 开发一个 Agent [移步](./second)）
 - 参考资料
   - https://github.com/datawhalechina/hello-agents
   - https://github.com/nousresearch/hermes-agent
@@ -49,4 +49,6 @@
 1. 理解其工作原理，有选型和改进的能力
 2. 清楚知道 Agent的能力边界，让其在合适的地方发挥最大的价值
 
-古话说得好：纸上得来终觉浅，绝知此事要躬行！
+古话说：纸上得来终觉浅，绝知此事要躬行！
+
+下一篇：[Agent搭建：选择适合自己的学习方式](./overview)
