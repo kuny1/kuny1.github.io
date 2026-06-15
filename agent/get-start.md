@@ -25,7 +25,7 @@
 
 ### When: 什么时候开始
 - 开发一个 Agent 最好是两年前，其次是现在
-### How: 如何从 0 到 1 开发一个 Agent [移步](./second)）
+### How: 如何从 0 到 1 开发一个 Agent [移步](./hello-world)）
 - 参考资料
   - https://github.com/datawhalechina/hello-agents
   - https://github.com/nousresearch/hermes-agent
