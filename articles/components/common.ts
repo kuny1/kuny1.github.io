@@ -46,7 +46,7 @@ export function extractH1Title(content: string | undefined): string | undefined 
 
 export function transformPost(post: ContentData): ContentData {
     const { frontmatter, src, url, ...rest } = post;
-    const { title, ...frest } = frontmatter;
+    const { title, create_time_raw, ...frest } = frontmatter;
         // 通过 URL 推断出对应的 Markdown 文件路径，假设 URL 是 /musings/example.html，那么对应的 Markdown 文件应该是 musings/example.md
         const gitFilePath = url.replace(/^\//, '').replace('.html', '.md');
 
@@ -54,7 +54,7 @@ export function transformPost(post: ContentData): ContentData {
         return {
             frontmatter: {
                 title: title || extractH1Title(src) || '文章标题未填写', // 如果frontmatter中没有title，就从内容中提取一级标题
-                createTime,
+                createTime: create_time_raw || createTime, // 优先使用 frontmatter 中的 create_time_raw，如果没有再使用 git 获取的创建时间
                 updateTime,
                 ...frest
             },
